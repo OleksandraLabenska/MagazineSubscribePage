@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    color: yellow;
+}
+
+body{
+    background: url("image2.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+.container{
+    background: no-repeat center fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 65%;
+    height: 65%;
+    margin: 10vh auto;
+    overflow: hidden;
+}
+
+.mitad{
+    float:left;
+    width: 50%;
+    height: 700px;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+
+#part2{
+    background: url("revista.jpg") ;
+    background-size: cover;
+        height: 700px;
+
+}
+
+h1{
+    font-family: "Audiowide";
+    color: yellow;
+    text-shadow: 3px 2px deeppink;
+    font-size: 3rem;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    width: 300px;
+    margin-top: 15px;
+    background-color: black;
+    padding:5px;
+}
+
+.check{
+    width: 20px;
+}
+
+
+
+

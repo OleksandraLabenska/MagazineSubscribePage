@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <form method="post" action="http://www.cursos-diseno.es/mi-mail.php"/>
+        <div class="container">
+            <div id="part1"  class="mitad" >
+                <h1>PlayStation</h1>
+                <h3>Suscripción</h3>
+
+                <table>
+                    <input type="hidden" name="destinatario" value="oleksandra_labenska_tsapp1oa2021@cev.com">
+
+                    <tr><td><input type="text" name="nombre" placeholder="Nombre" autofocus required></td></tr>
+                    <tr><td><input type="text" name="apellidos" placeholder="Apellidos" required></td></tr>
+                    <tr><td><input type="text" name="direccion" placeholder="Dirección" required></td></tr>
+                    <tr><td><input type="text" name="poblacion" placeholder="Población" required></td></tr>
+                    <tr><td><input type="text" name="provincia" placeholder="Provincia" required></td></tr>
+                    <tr><td><input type="text" name="cp" placeholder="Codigo Postal" maxlength="5" required ></td></tr>
+                    <tr><td><input type="email" name="email" placeholder="correo@email.com"  required></td></tr>
+                    <tr><td><input class="check" type="checkbox" name="condiciones" required> Acepto las condiciones de la suscripción</td></tr>
+                    <tr><td><input type="submit" name="form" value="Enviar"> </td></tr>
+                </table>
+            </div>
+            <div id="part2" class="mitad"></div>
+        </div>
+    </body>
+</html>
